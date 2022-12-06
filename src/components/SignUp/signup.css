@@ -1,0 +1,84 @@
+.sinDiv{
+    box-sizing: border-box;
+   background: url("https://visnetai.co/images/dividers/divider-3.min.png");
+  /* background-color: rgb(21, 27, 77); */
+background-color: #150838;
+    
+}
+#sin_container{
+  width: 20rem;
+   border-radius: 15px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+   height:auto;
+   padding: 15px 20px 35px 20px;
+   background: rgba(5, 3, 27, 0.45);
+   background-blend-mode: darken;
+   color: white;
+   text-align: left;
+   
+
+}
+
+#sin_container p{
+color: gray;
+}
+#sin_resister{
+    text-align: left;
+}
+
+
+#sin_inputpass{
+    width: 80%;
+    margin: 10px;
+    padding: 13px;
+    border-radius: 10px;
+
+   
+}
+#sin_inputname{
+    width: 80%;
+    margin: 10px;
+    padding: 13px;
+    border-radius: 10px;
+}
+#sin_inputcheckbox{
+    margin: 10px;
+    
+}
+#sin_inputbtn{
+ width: 90%;
+    padding: 13px;
+    border-radius: 10px;
+    margin: 10px;
+    background: linear-gradient(240.51deg,#01b5ff,#00c957)
+}
+#sin_inputbtn:hover{
+    background: linear-gradient(240.51deg,#01b5ff,#bb0542);
+    cursor: pointer;
+}
+.BGimg{
+    background-image: url("https://visnetai.co/images/dividers/divider-1.min.png");
+   width: 100vw;
+   height: 100vh;
+   /* background-color: rgba(0, 0, 0, 0.55);
+   background-blend-mode:hard-light;
+   background-repeat: no-repeat; */
+
+}
+#sin_signbtn{
+    background-color: transparent;
+    border: none;
+    color: blue;
+    font-size: 15px;
+}
+
+#sin_signbtn:hover{
+    cursor: pointer;
+    color: red;
+}
+#sin_resister p{
+    color: gray;
+}

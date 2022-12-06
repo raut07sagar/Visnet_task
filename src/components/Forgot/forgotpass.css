@@ -1,0 +1,90 @@
+.pass_img{
+    padding: 15px;
+    width: 40%;
+    height: 20vh;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+
+body{
+    box-sizing: border-box;
+   background: url("https://visnetai.co/images/dividers/divider-3.min.png");
+  /* background-color: rgb(21, 27, 77); */
+background-color: #150838;
+    
+}
+.container{
+  width: 20rem;
+   border-radius: 15px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+   height:auto;
+   padding: 55px 20px 35px 20px;
+   background: rgba(5, 3, 27, 0.45);
+   background-blend-mode: darken;
+   color: white;
+   text-align: center;
+   
+
+}
+
+.container h3{
+color: rgb(253, 247, 247);
+margin-top: 3rem;
+}
+.login-register-wrapper{
+    text-align: center;
+}
+
+
+.inputpass{
+    width: 80%;
+    margin: 10px;
+    padding: 13px;
+    border-radius: 10px;
+
+   
+}
+.inputname{
+    width: 80%;
+    margin: 10px;
+    padding: 13px;
+    border-radius: 10px;
+}
+.inputcheckbox{
+    margin: 10px;
+    
+}
+.inputbtn{
+ width: 90%;
+    padding: 13px;
+    border-radius: 10px;
+    margin: 10px;
+    background: linear-gradient(240.51deg,#01b5ff,#00c957)
+}
+.inputbtn:hover{
+    background: linear-gradient(240.51deg,#01b5ff,#bb0542);
+    cursor: pointer;
+}
+.BGimg{
+    background-image: url("https://visnetai.co/images/dividers/divider-1.min.png");
+   width: 100vw;
+   height: 100vh;
+   /* background-color: rgba(0, 0, 0, 0.55);
+   background-blend-mode:hard-light;
+   background-repeat: no-repeat; */
+
+}
+.signbtn{
+    background-color: transparent;
+    border: none;
+    color: blue;
+    font-size: 15px;
+}
+.login-register-wrapper p{
+    color: gray;
+}
